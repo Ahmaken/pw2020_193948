@@ -1,0 +1,4 @@
+deployment:
+  task:
+    - export DEPLOYPATH=/home3/quic1934_pw193948/public_html/
+    - /bin/cp -R * $DEPLOYPATH
